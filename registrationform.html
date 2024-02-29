@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>div.cont{width: 100%;overflow: auto;} div.cont div{width: 25%;float: left;}</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="background-color: antiquewhite;">
+    <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center; font-size: 50px;">Registration Form</p>
+    <br>
+    <p style="color: gray;">Personal Details</p>
+    <div class="cont">
+        <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Full Name</div>
+        <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Date of Birth</div>
+        <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Email</div>
+    </div>
+    <div class="cont">
+        <div><input type="text" placeholder="Enter your Name"></div>
+        <div><input type="date" placeholder="Enter Birth Date"></div>
+        <div><input type="email" placeholder="Enter your email"></div>
+    </div>
+    <br>
+    <br>
+    <div class="cont">
+        <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Mobile number</div>
+        <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Gender</div>
+        <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Occupation</div>
+    </div>
+    <div class="cont">
+        <div>+91 - <input type="tel" id="mnumber" maxlength="10" pattern="[0-9]{10}" required placeholder="Enter mobile number"></div>
+        <div><select>
+            <option value="Enter your gender">Enter your gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select></div>
+        <div><input type="text" placeholder="Enter occupation"></div>
+    </div>
+    <br>
+    <p style="color: gray;">Personal Details</p>
+    <div class="cont">
+        <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">ID Type</div>
+        <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">ID Number</div>
+        <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Issue Authority</div>
+    </div>
+    <div class="cont">
+        <div><input type="text" placeholder="Enter ID type"></div>
+        <div><input type="number" placeholder="Enter ID number"></div>
+        <div><input type="text" placeholder="Enter issue department"></div>
+    </div>
+    <br>
+    <br>
+    <div class="cont">
+        <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Issue Date</div>
+        <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Issue State</div>
+        <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;">Expiry Date</div>
+    </div>
+    <div class="cont">
+        <div><input type="date" placeholder="Enter ID issue date"></div>
+        <div><input type="text" placeholder="Enter ID issue state"></div>
+        <div><input type="date" placeholder="Enter ID Expiry date"></div>
+    </div>
+    <br>
+    <br>
+    <button style="text-align: center; color: blue;">Next --></button>
+
+
+</body>
+</html>
